@@ -1,10 +1,34 @@
-# YouTube Vibe Coding: Step-by-Step Recording Guide
+# The 'Vibe Coding' YouTube Visual Strategy
 
-If you are new to making "Vibe Coding" videos, the best format is highly chronological. You want to take the viewer on the exact 4-step journey of iteration we just went through. Make sure to record your screen the whole time!
+"Vibe Coding" (building software dynamically using AI agents like Antigravity) is incredibly entertaining to watch on YouTube, but **it requires a totally different visual style than a normal programming tutorial.** 
 
-Here is the step-by-step playbook: what to show on screen, what prompt to type, and what to say.
+Instead of showing yourself typing syntax, you need to present yourself as the **Director**, and the AI as your set-builder.
+
+## Part 1: Core Content Principles
+
+### 1. Show The Prompts, Not the Syntax (The "Chat" View)
+Don't focus your screen on the VS Code window while building new things. Focus it on the chat interface. You want the viewer to read your plain-English instructions.
+**Example Footage:** Show a high-speed zoom-in on the exact text where you told me: *"No, make it darker and brutalist, they are an evil system."* 
+**Voiceover:** *"I realized the game was too cute. It wasn't 'Villainous' enough. So I literally told my AI to scrap the happy UI and make it look like a cold, terrifying hacking terminal."*
+
+### 2. Show The Mistakes (The Struggle)
+Nobody wants to watch a video where building a game is perfectly easy. The magic of Vibe Coding is the iteration loop!
+**Example Footage:** You must show the first, terrible version of our game (the one with the basic green Canvas squares that didn't do anything fun).
+
+### 3. The "Ghost Keyboard" Montage (The Code View)
+How much actual code writing should you show? **Zero manual typing.** 
+But you *should* use B-Roll of the code *writing itself*. 
+**Example Footage:** Open VS Code. Instead of typing, show a sped-up timelapse (200% speed) of the files updating automatically as the AI injects code. Combine this with energetic music.
+
+### 4. The Live Fixes (The "I'm still a dev" Moment)
+To maintain your authority, show at least one moment where you had to guide the AI strictly, or where you manually tweaked a simple value (like changing the GameJam stage names).
 
 ---
+<br>
+
+## Part 2: Step-by-Step Recording Playbook
+
+If you are new to making "Vibe Coding" videos, the best format is highly chronological. Take the viewer on the exact 4-step journey of iteration we just went through. Ensure you document your screen the whole time!
 
 ### Scene 1: The Blank Canvas (Iteration 0)
 **🎬 What to Show on Screen:** Open up an empty folder named `the-concrete-algorithm` in VS Code. Open the Antigravity chat window on the side. 
@@ -19,7 +43,7 @@ Here is the step-by-step playbook: what to show on screen, what prompt to type, 
 > *"This is boring. Let's pivot. A true villain is a System manipulating people. Build a cold, brutalist 'OS Terminal' UI like Papers, Please. Create a JSON story structure for 6 levels of moral dilemmas with a Freedom and Efficiency stat."*
 
 ### Scene 3: The Magic of Vibe Coding (Iteration 2)
-**🎬 What to Show on Screen:** Do a fast-forward montage of your VS Code editor magically filling up with HTML, CSS, and JS. Then, open the browser to show the new Dashboard UI (the stats and buttons).
+**🎬 What to Show on Screen:** Do a fast-forward montage of your VS Code editor magically filling up with HTML, CSS, and JS. Then, open the browser to show the new Dashboard UI.
 **🎙️ What to Say:** *"Within 30 seconds, Antigravity built the entire UI framework and branching story logic. But a UI alone isn't fun to watch. To prove you are destroying the world, we needed a live satellite feed representing the damage."*
 **⌨️ What to Prompt Antigravity:**
 > *"The UI alone is dry. I need you to program a mathematically beautiful 16-bit RPG village in Vanilla JavaScript Canvas (no image files!). Draw tiny houses, trees, and bouncing characters."*
