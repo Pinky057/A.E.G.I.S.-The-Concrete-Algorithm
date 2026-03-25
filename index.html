@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>A.E.G.I.S. TERMINAL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Boot Screen for Audio Context -->
+<div id="start-overlay">
+  <h1 style="color:#ef4444; letter-spacing:4px; font-family:monospace;">A.E.G.I.S. TERMINAL_</h1>
+  <p style="color:#94a3b8; font-family:monospace;">Audio Required. Unauthorized access prohibited.</p>
+  <button id="start-btn">[ INITIATE BOOT SEQUENCE ]</button>
+</div>
+
+<div id="game-wrapper" style="display:none; width:100%; display:flex; flex-direction:column; align-items:center;">
+  <h2>🧠 SYSTEM OVERVIEW</h2>
+
+  <div id="ui">
+    <div class="stats">
+      <div>Stability: <span id="stability">50</span></div>
+      <div>Freedom: <span id="freedom">70</span></div>
+      <div>Trust: <span id="trust">60</span></div>
+    </div>
+
+    <canvas id="gameCanvas" width="800" height="400"></canvas>
+
+    <div id="scenario-container">
+      <div id="location-header"></div>
+      <p id="scenario-text">Loading...</p>
+    </div>
+
+    <div class="choices" id="choices"></div>
+  </div>
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
